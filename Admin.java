@@ -7,7 +7,7 @@ public class Admin extends User {
     }
     public static void main(String[] args) {
         Admin adminName = new Admin();
-        adminName.name ="Daniel";
+        adminName.name ="Nwolisa";
         adminName.password = "88888";
         System.out.println(adminName.register());
     }
